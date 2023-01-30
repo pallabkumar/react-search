@@ -19,6 +19,21 @@ body, html {
     font-family: 'Tajawal', sans-serif;
 }
 
+
+.top-header {
+    background-color: #e4e4e3;;
+    display: flex;
+    width: 100%;
+    padding: 5px 10px 5px 30px;
+    box-shadow: 3px 1px 4px -1px rgba(0, 0, 0, 0.4);
+  }
+  
+  .location-header {
+    margin: auto;
+    flex: 1;
+    float: left;
+  }
+
 .search-results {
     width: 250px;
     font-size: 15px;
