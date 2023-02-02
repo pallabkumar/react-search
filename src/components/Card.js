@@ -20,7 +20,7 @@ function Card({ sailing }) {
 					</div>
 					<div className="booking-card-details">
 						<div className="flex">
-							<i class="fa-solid fa-ship"/ ><span>&nbsp; &nbsp;</span> { sailing.cruiseLine.shipName } 
+							<i class="fa-solid fa-ship" /><span>&nbsp; &nbsp;</span> { sailing.cruiseLine.shipName } 
 						</div>
 						<div className="flex">
 							<i class="fa-solid fa-square-dollar"></i><span>&nbsp; &nbsp;</span> { sailing.sailingPriceDetail.amount } per person*
