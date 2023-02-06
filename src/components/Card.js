@@ -1,6 +1,7 @@
 import React from 'react';
+import { formatDate } from '../utils/http';
 
-function Card({ sailing }) {
+const Card = ({ sailing }) => {
 	return (
 		<div className="tc wrapper dib br3 pa3 ma2 grow bw2 shadow-5">
 			<div className="booking-card-wrapper">
@@ -24,6 +25,9 @@ function Card({ sailing }) {
 						</div>
 						<div className="flex">
 							<i class="fa-solid fa-square-dollar"></i><span>&nbsp; &nbsp;</span> { sailing.sailingPriceDetail.amount } per person*
+						</div>
+						<div className="flex">
+							<i class="fa-solid fa-calendar"></i><span>&nbsp; &nbsp;</span> { formatDate(sailing.embarkDate) } - { formatDate(sailing.debarkDate) }
 						</div>
 					</div>
 				</div>

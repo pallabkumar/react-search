@@ -1,4 +1,4 @@
-export const ES_API_URL = 'http://localhost:9200/ecom-voyages-sailings/_search';
+export const ES_API_URL = 'http://localhost:9200/ecom-voyages-sailings-usd-2/_search';
 export const QUERY = {
     "from" : 0, 
     "size" : 1000,

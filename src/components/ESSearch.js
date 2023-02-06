@@ -6,7 +6,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
 import Scroll from './Scroll';
 import SearchList from './SearchList';
-import postData from '../utils/http';
+import { postData } from '../utils/http';
 import moment from 'moment';
 import { addDays } from 'date-fns';
 import { ES_API_URL, QUERY } from './../constant';
